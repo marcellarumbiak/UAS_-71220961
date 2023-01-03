@@ -55,3 +55,13 @@ Traceback (most recent call last):
     turtle.pendown(90,120)
 TypeError: pendown() takes 0 positional arguments but 2 were given
 turtle.pendown()
+turtle.circle(90)
+turtle.undo()
+turtle.goto(0,45)
+turtle.cirle(40)
+Traceback (most recent call last):
+  File "<pyshell#52>", line 1, in <module>
+    turtle.cirle(40)
+AttributeError: module 'turtle' has no attribute 'cirle'. Did you mean: 'circle'?
+turtle.right(90)
+turtle.circle(45)
